@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "MyApiProject.Controllers.JobsController",
+    "Method": "CreateJob",
+    "RelativePath": "api/v1/Jobs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job",
+        "Type": "MyApiProject.Models.Job",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApiProject.Controllers.JobsController",
+    "Method": "GetJobById",
+    "RelativePath": "api/v1/Jobs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
